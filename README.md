@@ -1,2 +1,2 @@
-# kusakabe-site
-My portfolio site
+# next-app
+for practice
