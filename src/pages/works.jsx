@@ -1,7 +1,11 @@
 import Head from 'next/head';
 import { Main } from '@/components/Main';
+import { useBackground } from '@/hooks/useBackground';
 
 export default function Home() {
+
+  useBackground();
+
   return (
     <>
       <Head>
