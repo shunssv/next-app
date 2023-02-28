@@ -13,7 +13,7 @@ export const useInputList = () => {
 
   const handleList = useCallback(() => {
     setArray((prevArray) => {
-      if (prevArray.some((item) => item === text)) {
+      if (prevArray.includes(text)) {
         alert('you have added it already!');
         return prevArray;
       }
